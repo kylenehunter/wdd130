@@ -4,22 +4,49 @@ nav {
 }
 nav a {
     color: white;
-    display: block;
-    padding: 20 px;
+    padding: 20px;
+    display: block;    
 }
 
 h1 {
     color: darkblue;
 }
 
-imag {
+main img {
     width: 150px;
     height: auto;
-    border: 1 px solid black;
+    border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30 px gray;
+    box-shadow: 0 0 30px gray;
 }
 
-p{
-    padding: 10 px;
+p {
+    padding: 0;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0 0 0 / 0.2); /*  */
+    padding: 1em;
+    background-color: brown;
+    color: beige;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+main {
+    max-width: 840px;
+}
+
+
+p { padding: 0;}
+
+footer {
+    margin-top: 1em;
+    border-top: 1px solid #000;
+    text-align: center;
 }
