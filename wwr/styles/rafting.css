@@ -1,8 +1,8 @@
 :root {
-    --primary-color: dodgerblue;
+    --primary-color: skyblue;
     --secondary-color: yellow;
     --accent1-color: darkblue;
-    --accent2-color: seashell;
+    --accent2-color: white;
     --heading-font: "Palladio", "Lucida Sans", sans-serif;
     --body-font: Palladio, Lucida Sans, sans-serif;
 }
