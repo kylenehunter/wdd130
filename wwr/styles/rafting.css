@@ -1,8 +1,8 @@
 :root {
-    --primary-color: skyblue;
-    --secondary-color: yellow;
-    --accent1-color: darkblue;
-    --accent2-color: white;
+    --primary-color: white;
+    --secondary-color: darkslategray;
+    --accent1-color: teal;
+    --accent2-color: darkblue;
     --heading-font: "Palladio", "Lucida Sans", sans-serif;
     --body-font: Palladio, Lucida Sans, sans-serif;
 }
@@ -28,9 +28,14 @@ header, main, footer {
     margin: 0 auto;
 }
 
-h1, h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
+}
+
+h2 {
+    font-family: var(--heading-font);
+    color: var(--secondary-color);
 }
 
 nav, p, section, article {
@@ -46,11 +51,6 @@ nav, p, section, article {
     position: relative;
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
-}
 
 h1 {
     position: absolute;
@@ -63,6 +63,12 @@ h1 {
     color: white;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+    
 .hero article img {
     float: right;
     width: 125px;
