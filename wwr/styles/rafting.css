@@ -51,6 +51,11 @@ nav, p, section, article {
     position: relative;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 h1 {
     position: absolute;
@@ -60,16 +65,27 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--primary-color);
 }
 
-.hero img {
-    display: block;
-    width: 100%;
-    height: auto;
+article {
+    position: absolute;
+    top: 290px;
+    width: 50%;
+    left: 420px;
+    opacity: 0.9;
+    box-shadow: 0 0 10px gray;
+    padding: 4px;
+    background-color: var(--primary-color);
+    color: var(--accent1-color)
+
 }
-    
+  
 .hero article img {
     float: right;
-    width: 125px;
+    height: 125px;
+    width: auto;
+    border: 9px;
+    margin: 9px;
+    box-shadow: 0 0 20px gray;
 }
