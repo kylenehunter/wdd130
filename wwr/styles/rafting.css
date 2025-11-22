@@ -7,23 +7,11 @@
     --heading-font: "Palladio", "Lucida Sans", sans-serif;
     --body-font: Palladio, Lucida Sans, sans-serif;
 }
-/* new */
-header  {
-    display: grid;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    grid-template-columns: 120px .5fr 1fr;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    max-width: 1000px;
-
-}
 
 * {
     margin: 10px;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 /* new */
@@ -36,6 +24,17 @@ header  {
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
+}
+
+/* impacts banner image section*/
+header  {
+    display: grid;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    grid-template-columns: 120px .5fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
 }
 
 header, main, footer {
@@ -52,6 +51,8 @@ h1 {
 h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
+    display: grid;
+    text-align: center;
 }
 
 .navigation, p, section, article {
@@ -61,7 +62,6 @@ h2 {
 
 .socialmedia a {
     text-decoration: none;
-
 }
 
 .socialmedia {
@@ -113,9 +113,16 @@ h1 {
     box-shadow: 0 0 20px var(--shadow-box);
 }
 
-figure {
+/*Here is where I adjust the 5 images under Adventure*/
+
+.figure {
     display: flex;
     align-content: space-between;
-
+    text-align: center;
 }
 
+.section {
+    float: right;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 0 0 20px var(--shadow-box);
+}
