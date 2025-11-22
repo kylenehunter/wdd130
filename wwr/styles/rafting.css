@@ -17,13 +17,13 @@ header  {
     border-bottom: 1px solid #ccc;
     max-width: 1000px;
 
-
 }
 
 * {
     margin: 10px;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 /* new */
@@ -61,8 +61,12 @@ h2 {
 
 .socialmedia a {
     text-decoration: none;
+
+}
+
+.socialmedia {
     display: flex;
-    align-items: flex-start;
+    align-items: flex-end;    
 }
 
 .hero {
@@ -108,3 +112,10 @@ h1 {
     margin: 9px;
     box-shadow: 0 0 20px var(--shadow-box);
 }
+
+figure {
+    display: flex;
+    align-content: space-between;
+
+}
+
