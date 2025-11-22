@@ -7,16 +7,30 @@
     --heading-font: "Palladio", "Lucida Sans", sans-serif;
     --body-font: Palladio, Lucida Sans, sans-serif;
 }
-
+/* new */
 header  {
+    display: grid;
     background-color: var(--primary-color);
     color: var(--accent2-color);
+    grid-template-columns: 120px .5fr 1fr;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+    max-width: 1000px;
+
+
 }
 
 * {
-    margin: 0;
+    margin: 10px;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* new */
+.navigation {
+    display: flex;
+    align-content: flex-end;
+    list-style: none;
 }
 
 body {
@@ -40,13 +54,15 @@ h2 {
     color: var(--secondary-color);
 }
 
-nav, p, section, article {
+.navigation, p, section, article {
     margin: 16px;
     padding: 8px;
 }
 
 .socialmedia a {
     text-decoration: none;
+    display: flex;
+    align-items: flex-start;
 }
 
 .hero {
@@ -81,9 +97,9 @@ h1 {
     padding: 4px;
     background-color: var(--primary-color);
     color: var(--accent1-color)
-
+    
 }
-  
+
 .hero article img {
     float: right;
     height: 125px;

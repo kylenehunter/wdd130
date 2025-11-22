@@ -12,6 +12,7 @@ body {
 :root {
     --dark-blue: darkblue;
 }
+
 nav {
     background-color: var(--dark-blue);
     padding: 10px;
@@ -32,7 +33,8 @@ nav a {
 h1 {
     color: var(--dark-blue);
     padding: .5rem;
-    border-bottom: 10px var(--dark-blue);
+    border-bottom: 2px solid var(--dark-blue); /* This puts a line under the box */
+    /* text-decoration: underline; /*This underlines the text*/
 }
 
 main img {
@@ -42,12 +44,11 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0 0 1rem 1rem;
+    margin: 1rem 0 1rem 1rem;
 }
 
 p {
-    margin: 1 rem;
-    padding: 0;
+    margin: 1rem;
 }
 
 .grid {
