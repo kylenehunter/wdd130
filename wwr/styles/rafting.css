@@ -81,8 +81,10 @@ h2 {
 
 .socialmedia {
     display: flex;
-    align-items: flex-end;    
+    align-items: flex-end;
+    gap: 20px;    
 }
+
 
 .hero {
     position: relative;
@@ -148,9 +150,4 @@ h2 {
 }
 .footer a {
     display: flex;
-}
-
-.socialmedia {
-display: flex;
-gap: 20px;
 }
