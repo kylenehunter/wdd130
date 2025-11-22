@@ -22,10 +22,7 @@
     list-style: none;
     justify-content: right;
     margin: 10px;
-
 }
-
-
 
 body {
     font-family: var(--body-font);
@@ -52,7 +49,6 @@ h1 {
     position: absolute;
     font-family: var(--heading-font);
     color: var(--primary-color);
-    position: absolute;
     top: 20px;
     width: 100%;
     padding: 16px;
@@ -73,6 +69,10 @@ h2 {
 .navigation, p, section, article {
     margin: 16px;
     padding: 8px;
+}
+.navigation a {
+    text-decoration: none;
+    color: var(--accent1-color)
 }
 
 .socialmedia a {
@@ -97,9 +97,9 @@ h2 {
 
 .hero article {
     position: absolute;
-    top: 290px;
+    top: 260px;
     width: 50%;
-    left: 420px;
+    left: 0px;
     opacity: 0.9;
     box-shadow: 0 0 10px var(--shadow-box);
     padding: 4px;
@@ -126,17 +126,33 @@ h2 {
     gap: 30px;
 }
 
-.history img {
-    display: block;
-    margin: 0;
-    max-width: 80%;
-    height: auto;
-    /* justify-content: center; */
-    align-items: center;
 
-    /* align-content: space-around;
-    margin: 10px 10px 10px 10px;
-    align-items: center;
+.history-container {
+    display: flex;
+    align-items: flex-start;
     justify-content: center;
-    place-items: center; */
+    place-items: center;
+    gap: 3px
+}
+
+.history-container img {
+    width: 30%;
+    flex-shrink: 0;
+}
+
+.footer {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.footer a {
+    display: flex;
+}
+
+.socialmedia {
+    display: flex;
+    align-items: flex-end;
+    align-content: space-around;
+    justify-content: space-between;
 }
