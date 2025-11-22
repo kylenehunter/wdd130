@@ -51,7 +51,7 @@ h1 {
     color: var(--primary-color);
     top: 20px;
     width: 100%;
-    padding: 16px;
+    padding: 26px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
@@ -62,8 +62,8 @@ h2 {
     color: var(--secondary-color);
     display: grid;
     text-align: center;
-    margin-bottom: 15px;
-    gap: 10px;
+    margin-bottom: 20px;
+    gap: 30px;
 }
 
 .navigation, p, section, article {
@@ -138,7 +138,7 @@ h2 {
 }
 
 .history-container img {
-    width: 30%;
+    width: 40%;
     flex-shrink: 0;
 }
 
@@ -146,6 +146,7 @@ h2 {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
+    margin-top: 50px;
     margin-bottom: 50px;
 }
 .footer a {
