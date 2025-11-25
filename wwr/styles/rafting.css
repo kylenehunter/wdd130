@@ -1,9 +1,9 @@
 :root {
-    --primary-color: white;
-    --secondary-color: saddlebrown;
+    --primary-color: #ffffff;
+    --secondary-color: #8b4513;
     --accent1-color: #172636;
     --accent2-color: #082645;
-    --shadow-box: gray;
+    --shadow-box: #818589;
     --heading-font: "Palladio", "Lucida Sans", sans-serif;
     --body-font: Palladio, Lucida Sans, sans-serif;
 }
