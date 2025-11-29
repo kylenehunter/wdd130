@@ -14,7 +14,70 @@
     box-sizing: border-box;
 }
 
-/* new */
+textarea {
+  width: auto;
+}
+
+body {
+  font-family: var(--body-font);
+  color: var(--accent2-color);
+}
+
+/* impacts banner image section*/
+header  {
+  display: grid;
+  background-color: var(--primary-color);
+  color: var(--accent2-color);
+  grid-template-columns: 120px .5fr 1fr;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+  max-width: 1000px;
+}
+
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+figcaption {
+  display: flex-column;
+  margin: 0;
+  padding: 0;    
+  line-height: 0;
+}
+
+h1 {
+  position: absolute;
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+  top: 20px;
+  width: 100%;
+  padding: 26px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent2-color);
+}
+
+h2 {
+  font-family: var(--heading-font);
+  color: var(--secondary-color);
+  display: grid;
+  text-align: center;
+  margin-bottom: 20px;
+  gap: 30px;
+}
+
+form {
+  
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  height: 450px;
+  
+
+}
+
+
 .navigation {
     display: flex;
     align-content: flex-start;
@@ -23,74 +86,32 @@
     justify-content: right;
     margin: 10px;
 }
-
-body {
-    font-family: var(--body-font);
-    color: var(--accent2-color);
-}
-
-/* impacts banner image section*/
-header  {
-    display: grid;
-    background-color: var(--primary-color);
-    color: var(--accent2-color);
-    grid-template-columns: 120px .5fr 1fr;
-    align-items: center;
-    border-bottom: 1px solid #ccc;
-    max-width: 1000px;
-}
-
-header, main, footer {
-    width: 840px;
-    margin: 0 auto;
-}
-
-h1 {
-    position: absolute;
-    font-family: var(--heading-font);
-    color: var(--primary-color);
-    top: 20px;
-    width: 100%;
-    padding: 26px;
-    text-align: center;
-    opacity: 0.7;
-    background-color: var(--accent2-color);
-}
-
-h2 {
-    font-family: var(--heading-font);
-    color: var(--secondary-color);
-    display: grid;
-    text-align: center;
-    margin-bottom: 20px;
-    gap: 30px;
-}
-
-.navigation, p, section, article {
+  
+  .navigation, p, section, article {
     margin: 16px;
     padding: 8px;
-}
-.navigation a {
+  }
+  .navigation a {
     text-decoration: none;
     color: var(--accent1-color)
-}
-
-.socialmedia a {
+  }
+  
+  .socialmedia a {
     text-decoration: none;
-}
-
-.socialmedia {
+  }
+  
+  .socialmedia {
     display: flex;
     align-items: flex-end;
     gap: 20px;    
-}
-
-
-.hero {
+  }
+  
+  
+  .hero {
     position: relative;
-}
-
-.hero img {
+  }
+  
+  .hero img {
     position: relative;
     display: block;
     width: 100%;
@@ -121,78 +142,109 @@ h2 {
 
 /*Here is where I adjust the 5 images under Adventure*/
 
-.figure {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    /* align-content: space-around; */
-    text-align: center;
-    margin: 0;
-    padding: 0;
+.employees {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-content: space-around; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
 
-    /* gap: 30px; */
+  /* gap: 30px; */
 }
-
-figcaption {
-    display: flex-column;
-    margin: 0;
-    padding: 0;    
-}
-
 
 .history-container {
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    place-items: center;
-    gap: 3px
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  place-items: center;
+  gap: 3px
 }
 
 .history-container img {
-    width: 40%;
-    flex-shrink: 0;
+  width: 40%;
+  flex-shrink: 0;
 }
 
 .footer {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
+
 .footer a {
     display: flex;
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
+
 .contact ul {
     padding: 0;
 }
+
 li {
-    list-style-type: none;
-    text-align: center;
-    line-height:  1.5;
+  list-style-type: none;
+  text-align: center;
+  line-height:  1.5;
 }
 
-.map {
-  display: 
+label [type=checkbox] {
+  width: 25px;
+  height: 25px;
+  margin: 0 10px 0 0;
 }
 
 button {
-
-  padding: 1.75 rem;
-  width: 100px;
+  width: 200px;
   height: 40px;
   border-radius: .5rem;
+  margin: 10px 0 40px 0;
+  font: var(--body-font);
+  background-color: var(--accent2-color);
+  color: var(--primary-color);
 }
 
-form {
+input, select, textarea {
+  padding: 10px 10px 10px 10px;
+  margin: 9px 1px 9px 1px;
+
+}
+
+.purpose {
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
+}
+
+input[type="radio"] {
+  display: flex;
+  width: 30px;
+  height: 20px;
+  /* justify-content: flex-start; */
+  ;
+  align-items: center;
+}
+
+iframe {
+  /* float: left; */
+  margin: 10px 30px 10px 10px;
+  border: 1px solid #000;
+
+}
+
+.purpose_options {
+  display: flex;
+  gap: 20px;
+}
+.map-form {
+  display: flex;
+  flex-direction: row;
 }
