@@ -123,9 +123,12 @@ h2 {
 
 .figure {
     display: flex;
-    align-content: space-around;
+    flex-direction: row;
+    justify-content: space-around;
+    /* align-content: space-around; */
     text-align: center;
-    gap: 30px;
+
+    /* gap: 30px; */
 }
 
 
@@ -151,4 +154,37 @@ h2 {
 }
 .footer a {
     display: flex;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+.contact ul {
+    padding: 0;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+    line-height:  1.5;
+}
+
+.map {
+  display: 
+}
+
+button {
+
+  padding: 1.75 rem;
+  width: 100px;
+  height: 40px;
+  border-radius: .5rem;
+}
+
+form {
+  display: flex;
+  flex-flow: column wrap;
 }
