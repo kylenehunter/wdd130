@@ -40,10 +40,9 @@ header, main, footer {
 }
 
 figcaption {
-  display: flex;
   margin: 0;
   padding: 0;    
-  line-height: 0;
+  line-height: .001;
 }
 
 h1 {
