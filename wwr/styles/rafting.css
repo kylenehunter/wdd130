@@ -127,8 +127,16 @@ h2 {
     justify-content: space-around;
     /* align-content: space-around; */
     text-align: center;
+    margin: 0;
+    padding: 0;
 
     /* gap: 30px; */
+}
+
+figcaption {
+    display: flex-column;
+    margin: 0;
+    padding: 0;    
 }
 
 

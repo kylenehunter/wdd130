@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Us Whitewater Rafting</title>
-  <meta name="contact"
+  <meta name="description"
     content="Contact us for more information.  Plan and enjoy the experience of rafting downstream with your friends and family!">
   <meta name="author" content="Kylene Hunter">
   <link rel="stylesheet" href="styles/rafting.css">
@@ -25,9 +25,7 @@
     </nav>
   </header>
   <main>
-    <div class="hero">
-      <h1>Contact Us</h1>
-    </div>
+    <h1 class="hero">Contact Us</h1>
     <article class="contact">
       <p></p>
       <p></p>
@@ -50,18 +48,18 @@
       </div>
       <form>
         <div>
-          <label for="name">Name:</label>
-          <input type="name" id="name" name="name">
+          <label for="username">Name:</label>
+          <input type="username" id="username" name="username">
         </div>
         <div>
           <label for="email">Email:</label>
           <input type="email" id="email" name="email">
         </div>
-        <div>
-          <label for="purpose">Message Purpose:</label>
-          <input type="radio">General Inquiry</input>
-          <input type="radio">Reservation Question</input>
-          <input type="radio">Website Suggestion</input>
+        <div class="purpose">
+          <label type="text" for="purpose">Message Purpose:</label>
+          <input type="radio" name="radio" id="radio">General Inquiry</input>
+          <input type="radio" name="radio" id="radio">Reservation Question</input>
+          <input type="radio" name="radio" id="radio">Website Suggestion</input>
         </div>
         <div>
           <label for="message"></label>
@@ -82,20 +80,26 @@
       <div class="figure">
         <figure>
           <img src="images/emp-three-sq-opt.jpg" alt="image-three" width="100">
-          <figcaption>Louie Rays</figcaption>
-          <figcaption>Instructor</figcaption>
+          <figcaption>
+            <p>Louie Rays</p>
+            <p>Instructor</p>
+          </figcaption>
         </figure>
 
         <figure>
           <img src="images/emp-one-sq-opt.jpg" alt="image-four" width="100">
-          <figcaption>Mike Wall</figcaption>
-          <figcaption>President</figcaption>
+          <figcaption>
+            <p>Mike Wall</p>
+            <p>President</p>
+          </figcaption>
         </figure>
 
         <figure>
           <img src="images/emp-two-sq-opt.jpg" alt="image-5" width="100">
-          <figcaption>Rose Lax</figcaption>
-          <figcaption>Scheduler</figcaption>
+          <figcaption>
+            <p>Rose Lax</p>
+            <p>Scheduler</p>
+          </figcaption>
         </figure>
       </div>
 
