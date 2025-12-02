@@ -16,6 +16,7 @@
 
 textarea {
   width: auto;
+
 }
 
 body {
@@ -206,7 +207,7 @@ button {
   width: 200px;
   height: 40px;
   border-radius: .5rem;
-  margin: 10px 0 40px 0;
+  margin: 15px 0 40px 0;
   font: var(--body-font);
   background-color: var(--accent2-color);
   color: var(--primary-color);
@@ -228,6 +229,7 @@ input[type="radio"] {
   /* display: flex; */
   width: 15px;
   height: 15px;
+  margin: 0 7px 0 0;
 
   /* justify-content: flex-start; */
   ;
@@ -244,7 +246,16 @@ iframe {
 #purpose_options {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
+  margin: 25px 0 10px 0;
+  /* border: 1px solid #000; */
+}
+
+
+#purpose_options li {
+  display: flex;
+  align-items: center;
+  
 }
 .map-form {
   display: flex;
