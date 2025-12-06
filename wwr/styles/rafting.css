@@ -227,7 +227,7 @@ thead tr, tfoot tr, td {
 }
 
 #mp-title {
-  gap: 10px 10px 10px 10px;
+  gap: 10px;
   border: 1px solid #000;
   padding-top: 20px;
 }
