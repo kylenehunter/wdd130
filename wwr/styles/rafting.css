@@ -43,8 +43,9 @@ header, main, footer {
 figcaption {
   margin: 0;
   padding: 0;    
-  line-height: .001;
+  line-height: .006;
 }
+
 
 h1 {
   position: absolute;
@@ -154,6 +155,16 @@ form {
   /* gap: 30px; */
 }
 
+.adventure {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* align-content: space-around; */
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
 .history-container {
   display: flex;
   align-items: flex-start;
@@ -187,6 +198,12 @@ form {
   padding: 0;
 }
 
+#mp-title {
+  gap: 10px 10px 10px 10px;
+  border: 1px solid #000;
+  padding-top: 20px;
+}
+
 .contact ul {
     padding: 0;
 }
@@ -202,6 +219,9 @@ label [type=checkbox] {
   height: 15px;
   margin: 0 10px 0 0;
 }
+.m-p {
+  margin-top: 10px;
+}
 
 button {
   width: 200px;
@@ -216,7 +236,7 @@ button {
 input, select, textarea {
   padding: 10px 10px 10px 10px;
   margin: 9px 1px 9px 1px;
-    border-radius: .2rem;
+  border-radius: .2rem;
 
 }
 
@@ -261,3 +281,4 @@ iframe {
   display: flex;
   flex-direction: row;
 }
+
