@@ -75,10 +75,38 @@ form {
   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
   height: 450px;
   
-
 }
 
 
+
+table {
+  border-collapse: collapse;
+  border: 2px solid var(--accent1-color);
+  letter-spacing: 1px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  
+} 
+
+th, td {
+  border: 3px solid var(--accent2-color);
+  padding: 8px 12px;
+  text-align: center;
+}
+thead tr, tfoot tr, td {
+  color: var(--accent1-color)
+}
+
+.newsletter {
+  text-align: center;
+  border: 1px solid var(--accent2-color);
+  border-radius: 1rem;
+  margin: 50px auto 50px auto;
+  width: 500px;
+  align-items: center;
+}
 .navigation {
     display: flex;
     align-content: flex-start;
@@ -88,29 +116,29 @@ form {
     margin: 10px;
 }
   
-  .navigation, p, section, article {
+.navigation, p, section, article {
     margin: 16px;
     padding: 8px;
-  }
+}
   .navigation a {
     text-decoration: none;
     color: var(--accent1-color)
-  }
+}
   
-  .socialmedia a {
+.socialmedia a {
     text-decoration: none;
   }
   
-  .socialmedia {
+.socialmedia {
     display: flex;
     align-items: flex-end;
     gap: 20px;    
-  }
+}
   
   
-  .hero {
+.hero {
     position: relative;
-  }
+}
   
   .hero img {
     position: relative;
@@ -224,6 +252,7 @@ label [type=checkbox] {
 }
 
 button {
+  text-decoration: none;
   width: 200px;
   height: 40px;
   border-radius: .5rem;
@@ -231,6 +260,28 @@ button {
   font: var(--body-font);
   background-color: var(--accent2-color);
   color: var(--primary-color);
+}
+
+.button-link {
+  text-decoration: none;
+  padding: 15px;
+  width: 200px;
+  height: 35px;
+  text-align: center;
+  border-radius: .5rem;
+  margin: 15px 0 30px 0;
+  font: var(--body-font);
+  background-color: var(--accent1-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  gap: 100px;
+  /* font-size: large; */
+  /* font-weight: bold; */
+  
+}
+
+.center-button {
+  text-align: center;
 }
 
 input, select, textarea {
@@ -263,6 +314,34 @@ iframe {
 
 }
 
+.map-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.offerings {
+  display: grid;
+  flex-direction: row;
+  grid-template-columns: 1fr 3fr;
+  /* gap: 5px; */
+  /* text-align: center; */
+  /* border: 1px solid #000; */
+  margin-top: 20px;
+}
+
+.offerings img {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-top: 20px;
+
+}
+
+.offerings h2, .offerings p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 #purpose_options {
   display: flex;
   flex-direction: column;
@@ -277,8 +356,3 @@ iframe {
   align-items: center;
   
 }
-.map-form {
-  display: flex;
-  flex-direction: row;
-}
-
